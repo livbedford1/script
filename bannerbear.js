@@ -14,17 +14,38 @@ exports.generateWallpaper = async function(todoTasks, calendarObj) {
       "text": "Personal",
     },
     {
-      "name": "todo_title_others",
-      "text": "Others",
+      "name": "todo_title_other",
+      "text": "Other",
     },
     {
-      "name": "month_title",
-      "text": calendarObj.month,
+      "name": "todo_title_monday",
+      "text": "monday",
     },
     {
-      "name": "month_dates_text",
-      "text": calendarObj.dates,
+      "name": "todo_title_tuesday",
+      "text": "tuesday",
+    },
+    {
+      "name": "todo_title_wednesday",
+      "text": "wednesday",
+    },
+    {
+      "name": "todo_title_thursday",
+      "text": "thursday",
+    },
+    {
+      "name": "todo_title_friday",
+      "text": "friday",
+    },
+    {
+      "name": "todo_title_saturday",
+      "text": "saturday",
+    },
+    {
+      "name": "todo_title_sunday",
+      "text": "sunday",
     }
+    
   ];
 
   for (category in todoTasks) {
@@ -48,8 +69,29 @@ exports.generateWallpaper = async function(todoTasks, calendarObj) {
       case 'Work':
         bb_object.name = 'todo_item_work';
         break;
+      case 'monday':
+        bb_object.name = 'todo_item_monday';
+        break;
+      case 'tuesday':
+        bb_object.name = 'todo_item_tuesday';
+        break;
+      case 'wednesday':
+        bb_object.name = 'todo_item_wednesday';
+        break;
+      case 'thursday':
+        bb_object.name = 'todo_item_thursday';
+        break;
+      case 'friday':
+        bb_object.name = 'todo_item_friday';
+        break;
+      case 'saturday':
+        bb_object.name = 'todo_item_saturday';
+        break;
+      case 'sunday':
+        bb_object.name = 'todo_item_sunday';
+        break;
       default:
-        bb_object.name = 'todo_item_others'
+        bb_object.name = 'todo_item_other'
 
     }
 
