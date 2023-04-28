@@ -5,7 +5,7 @@
         <key>Label</key>
         <string>com.notion.wallpaper</string>
         <key>Program</key>
-        <string>/Users/username/notion-todo/todo-wallpaper-script.sh</string>
+        <string>/Desktop/notion-todo/todo-wallpaper-script.sh</string>
         <key>RunAtLoad</key>
         <true/>
         <key>StartInterval</key> 
