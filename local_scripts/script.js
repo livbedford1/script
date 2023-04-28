@@ -8,8 +8,8 @@ const fs = require('fs');
   if (result.hasChange && result.imageUrl) {
     const res = await fetch(result.imageUrl);
     const buffer = Buffer.from(await res.arrayBuffer());
-    fs.writeFileSync('/Desktop/notion wallpaper/wallpaper.png', buffer);
-    fs.writeFileSync('/Desktop/notion wallpaper/wallpaper copy.png', buffer);
+    fs.writeFileSync('/Users/oliviabedford/notion wallpaper/wallpaper.png', buffer);
+    fs.writeFileSync('/Users/oliviabedford/notion wallpaper/wallpaper copy.png', buffer);
     console.log(`imageUrl: ${result.imageUrl}`);
   } else {
     console.log('no new wallpaper')
