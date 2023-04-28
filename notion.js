@@ -1,5 +1,5 @@
 const { Client } = require('@notionhq/client');
-const notion = new Client({ auth: process.env.NOTION_API_KEY });
+const notion = new Client({ auth: process.env.secret_VtL3j4m98IuKMJhYfDiQMmqjdefCnTP0Gra54983OCL});
 
 exports.getTodoTasks = async function() {
   
@@ -17,7 +17,7 @@ exports.getTodoTasks = async function() {
   };
   
   const response = await notion.databases.query({
-    database_id: process.env.NOTION_DB_ID,
+    database_id: process.env.9118ce887fc345cea1969b59c4da4b23,
     "filter": {
       "property": "Done",
       "checkbox": {
