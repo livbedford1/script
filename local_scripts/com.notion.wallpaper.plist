@@ -5,14 +5,14 @@
         <key>Label</key>
         <string>com.notion.wallpaper</string>
         <key>Program</key>
-        <string>/Desktop/notion-todo/todo-wallpaper-script.sh</string>
+        <string>/Users/oliviabedford/notion-todo/todo-wallpaper-script.sh</string>
         <key>RunAtLoad</key>
         <true/>
         <key>StartInterval</key> 
         <integer>60</integer>
         <key>StandardOutPath</key>
-        <string>/Desktop/notion-todo/output.txt</string>
+        <string>/Users/oliviabedford/notion-todo/output.txt</string>
         <key>StandardErrorPath</key>
-        <string>/Desktop/notion-todo/errors.txt</string>
+        <string>/Users/oliviabedford/notion-todo/errors.txt</string>
     </dict>
 </plist>
