@@ -11,8 +11,8 @@
         <key>StartInterval</key> 
         <integer>60</integer>
         <key>StandardOutPath</key>
-        <string>/Users/username/notion-todo/output.txt</string>
+        <string>/Desktop/notion-todo/output.txt</string>
         <key>StandardErrorPath</key>
-        <string>/Users/username/notion-todo/errors.txt</string>
+        <string>/Desktop/notion-todo/errors.txt</string>
     </dict>
 </plist>
