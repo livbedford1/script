@@ -6,7 +6,14 @@ exports.getTodoTasks = async function() {
   const data = {
     "Personal": [],
     "Work": [],
-    "Others": []
+    "Other": [],
+    "monday": [],
+    "tuesday": [],
+    "wednesday": [],
+    "thursday": [],
+    "friday": [],
+    "saturday": [],
+    "sunday": [],
   };
   
   const response = await notion.databases.query({
